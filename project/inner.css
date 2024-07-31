@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+#parent{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.scoredisplay{
+    border:2px solid rgb(121, 128, 118);
+    background-color:rgb(158, 167, 158);
+    width:50vw;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+#child-element{
+    border:2px solid rgb(121, 128, 118);
+    background-color:rgb(158, 167, 158);
+    min-width:50vw;
+}
+#main-heading{
+    background-color: black;
+    height: 15vh;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    height:45px;
+}
+#heading{
+    margin-top: 10px;
+    color:white;
+}
+#text-bottom{
+    display:flex;
+    justify-content: space-between;
+}
+#question-attempt{
+    margin-left: 10px;
+    font-weight: bold;
+    color:white;
+}
+#score-total{
+    margin-right:12px;
+    font-weight: bold;
+    color:white;
+}
+#box{
+    margin-top:20px;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+}
+#question-show{
+    position: relative;
+    top: 1px;
+}
+.box{
+    margin-top:20px;
+    height:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
+}
+#button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height:60px;
+}
+#next-que{
+    min-width:6vw;
+    height:40px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+#submit-btn{
+    min-width:6vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    border-width: 0px;
+    background-color:black;
+    color:white;
+}
+#question-show{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left:20px;
+}
+.answer{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left:20px;
+}
+#option{
+    display: flex;
+    justify-content: flex-start;
+}
+#opt1{
+    background-color: green;
+}
+#ansOne{
+    background-color: red;
+}
+#opt2{
+    background-color: green;
+}
+#ansTwo{
+    background-color: red;
+}
+#opt3{
+    background-color: green;
+}
+#ansThree{
+    background-color: red;
+}
+#opt4{
+    background-color: green;
+}
+#ansFour{
+    background-color: red;
+}
